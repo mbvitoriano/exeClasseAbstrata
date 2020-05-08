@@ -1,10 +1,10 @@
 using System;
 
-namespace exeClasseAbstrata.Questao1
+namespace exeClasseAbstrata.Questao3
 {
-  internal class Palio : CarroPopular
+  internal class Gol : CarroPopular
   {
-    public Palio(string modelo, string fabrica, string categoria, string numChassi)
+    public Gol(string modelo, string fabrica, string categoria, string numChassi)
     {
       this.modelo = modelo;
       this.fabrica = fabrica;

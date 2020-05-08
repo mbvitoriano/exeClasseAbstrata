@@ -1,10 +1,10 @@
 using System;
 
-namespace exeClasseAbstrata.Questao1
+namespace exeClasseAbstrata.Questao2
 {
-  internal class Palio : CarroPopular
+  internal class Siena : CarroSedan
   {
-    public Palio(string modelo, string fabrica, string categoria, string numChassi)
+    public Siena(string modelo, string fabrica, string categoria, string numChassi)
     {
       this.modelo = modelo;
       this.fabrica = fabrica;
@@ -12,12 +12,15 @@ namespace exeClasseAbstrata.Questao1
       this.numChassi = numChassi;
     }
 
-    public override void exibirInfoPopular()
+    public Siena()
+    {
+    }
+    public override void exibirInfoSedan()
     {
       System.Console.WriteLine($"\nModelo: {modelo}\nFábrica: {fabrica}\nCategoria: {categoria}\nNúmero do Chassi: {numChassi}");
     }
 
 
-
   }
 }
+

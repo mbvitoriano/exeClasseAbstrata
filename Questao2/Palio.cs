@@ -1,6 +1,6 @@
 using System;
 
-namespace exeClasseAbstrata.Questao1
+namespace exeClasseAbstrata.Questao2
 {
   internal class Palio : CarroPopular
   {

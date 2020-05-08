@@ -1,6 +1,6 @@
 using System;
 
-namespace exeClasseAbstrata.Questao1
+namespace exeClasseAbstrata.Questao4
 {
   internal class Siena : CarroSedan
   {
@@ -15,9 +15,10 @@ namespace exeClasseAbstrata.Questao1
     public Siena()
     {
     }
-    public override void exibirInfoSedan()
+
+    public override string ToString()
     {
-      System.Console.WriteLine($"\nModelo: {modelo}\nFábrica: {fabrica}\nCategoria: {categoria}\nNúmero do Chassi: {numChassi}");
+      return ($"\nModelo: {modelo}\nFábrica: {fabrica}\nCategoria: {categoria}\nNúmero do Chassi: {numChassi}");
     }
 
 

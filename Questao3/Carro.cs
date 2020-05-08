@@ -1,6 +1,6 @@
 using System;
 
-namespace exeClasseAbstrata.Questao1
+namespace exeClasseAbstrata.Questao3
 {
   abstract class Carro
   {

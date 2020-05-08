@@ -1,6 +1,6 @@
 using System;
 
-namespace exeClasseAbstrata.Questao1
+namespace exeClasseAbstrata.Questao4
 {
   internal class FabricaFiat : FabricaDeCarros
   {
@@ -14,6 +14,11 @@ namespace exeClasseAbstrata.Questao1
     public override CarroPopular criarCarroPopular(string modelo, string fabrica, string categoria, string numChassi)
     {
       Palio obj = new Palio(modelo, fabrica, categoria, numChassi);
+      return obj;
+    }
+    public override CarroPicape criarCarroPicape(string modelo, string fabrica, string categoria, string numChassi)
+    {
+      Strada obj = new Strada(modelo, fabrica, categoria, numChassi);
       return obj;
     }
   }

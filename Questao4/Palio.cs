@@ -1,6 +1,6 @@
 using System;
 
-namespace exeClasseAbstrata.Questao1
+namespace exeClasseAbstrata.Questao4
 {
   internal class Palio : CarroPopular
   {
@@ -12,9 +12,9 @@ namespace exeClasseAbstrata.Questao1
       this.numChassi = numChassi;
     }
 
-    public override void exibirInfoPopular()
+    public override string ToString()
     {
-      System.Console.WriteLine($"\nModelo: {modelo}\nFábrica: {fabrica}\nCategoria: {categoria}\nNúmero do Chassi: {numChassi}");
+      return ($"\nModelo: {modelo}\nFábrica: {fabrica}\nCategoria: {categoria}\nNúmero do Chassi: {numChassi}");
     }
 
 

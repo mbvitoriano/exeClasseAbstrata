@@ -1,23 +1,25 @@
 using System;
 
-namespace exeClasseAbstrata.Questao1
+namespace exeClasseAbstrata.Questao3
 {
-  internal class Palio : CarroPopular
+  internal class Saveiro : CarroPicape
   {
-    public Palio(string modelo, string fabrica, string categoria, string numChassi)
+    public Saveiro(string modelo, string fabrica, string categoria, string numChassi)
     {
       this.modelo = modelo;
       this.fabrica = fabrica;
       this.categoria = categoria;
       this.numChassi = numChassi;
     }
-
-    public override void exibirInfoPopular()
+    public Saveiro()
+    {
+    }
+    public override void exibirInfoPicape()
     {
       System.Console.WriteLine($"\nModelo: {modelo}\nFábrica: {fabrica}\nCategoria: {categoria}\nNúmero do Chassi: {numChassi}");
     }
 
 
-
   }
 }
+
