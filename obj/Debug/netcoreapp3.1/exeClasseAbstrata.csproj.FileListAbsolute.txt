@@ -1,0 +1,11 @@
+/home/mbvitoriano/Desktop/exeClasseAbstrata/obj/Debug/netcoreapp3.1/exeClasseAbstrata.csprojAssemblyReference.cache
+/home/mbvitoriano/Desktop/exeClasseAbstrata/obj/Debug/netcoreapp3.1/exeClasseAbstrata.AssemblyInfoInputs.cache
+/home/mbvitoriano/Desktop/exeClasseAbstrata/obj/Debug/netcoreapp3.1/exeClasseAbstrata.AssemblyInfo.cs
+/home/mbvitoriano/Desktop/exeClasseAbstrata/bin/Debug/netcoreapp3.1/exeClasseAbstrata
+/home/mbvitoriano/Desktop/exeClasseAbstrata/bin/Debug/netcoreapp3.1/exeClasseAbstrata.deps.json
+/home/mbvitoriano/Desktop/exeClasseAbstrata/bin/Debug/netcoreapp3.1/exeClasseAbstrata.runtimeconfig.json
+/home/mbvitoriano/Desktop/exeClasseAbstrata/bin/Debug/netcoreapp3.1/exeClasseAbstrata.runtimeconfig.dev.json
+/home/mbvitoriano/Desktop/exeClasseAbstrata/bin/Debug/netcoreapp3.1/exeClasseAbstrata.dll
+/home/mbvitoriano/Desktop/exeClasseAbstrata/bin/Debug/netcoreapp3.1/exeClasseAbstrata.pdb
+/home/mbvitoriano/Desktop/exeClasseAbstrata/obj/Debug/netcoreapp3.1/exeClasseAbstrata.dll
+/home/mbvitoriano/Desktop/exeClasseAbstrata/obj/Debug/netcoreapp3.1/exeClasseAbstrata.pdb
